@@ -1,0 +1,46 @@
+#jsdom
+    margin: 100px 0
+    .chat
+        width: 100%
+        background-color: #f8c471
+        border-radius: 20px
+        padding: 25px
+        margin: 20px 0
+    .message
+        height: 280px
+        background-color: #f4f6ff
+        border-radius: 20px
+        padding: 20px
+        overflow: auto
+        &::-webkit-scrollbar
+            display: none
+        .end
+            text-align: end
+        .line
+            padding: 10px
+            display: inline-block
+            margin-bottom: 10px
+            border-radius: 20px
+            background-color: #4186a1
+            color: #ffff
+            text-align: start
+            max-width: 50%
+    .text
+        display: flex
+        justify-content: center
+        margin-top: 20px
+        input
+            border-radius: 20px
+            border: none
+            margin-right: 15px
+        .sent
+            padding: 10px 25px
+            border-radius: 20px
+            background-color: #5f8094
+            color: #ffff
+            cursor: pointer
+            h3
+                cursor: pointer
+@media screen and ( max-width: 992px )
+    .chat
+        margin-top: 50px
